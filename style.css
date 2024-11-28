@@ -13,6 +13,9 @@ a{
 .nunito{    
   font-family: "Nunito", sans-serif;
 }
+button:hover{
+    box-shadow: #C3D8FF 3px 3px;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -121,6 +124,10 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.sec-img{
+    width: 35%;
+    height: 35%;
 }
 .st-stit{
     font-size: 24px;
@@ -298,10 +305,137 @@ a{
     justify-content: space-around;
 }
 .l{
-    font-size: 40px;
+    font-size: 28px;
+}
+.media-btn{
+    display: none;
 }
 .signature{
     margin: 0;
     text-align: center;
     padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .nav-pages{
+        display: none;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .media-btn{
+        display: inline;
+        border: 0;
+        background-color: #ffffff;
+        font-size: 35px;
+        border-radius: 30px;
+    }
+    .nunito{
+        width: 90%;
+        font-size: 24px;
+    }
+    .hm-btn{
+        width: 145px;
+        height: 40px;
+    }
+    .hm-stit{
+        width: 90%;
+        font-size: 11px;
+    }
+    .hm-img{
+        width: 90%;
+
+    }
+    .sec1-tit{
+        text-align: center;
+    }
+    .text , .s3-text, .st-text{
+        width: 90%;
+        font-size: 11px;
+    }
+    .sec_1{
+        width: 70%;
+        margin: auto;
+    }
+    .sec1-con{
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .c-imgcon{
+        width: 90%;
+    }
+    .ctc-btn1,.ctc-btn2{
+        height: 45px;
+        width: 40%;
+    }
+    .sec_2{
+        width: 90%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .sec2-text{
+        height: auto;
+        width: 90%;
+        margin-bottom: 0;
+    }
+    .sec-img{
+        width: 90%;
+    }
+    .st-btn{
+        margin: 0;
+    }
+    .sec_3{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .s3-tit{
+        margin: auto;
+        text-align: center;
+    }
+    .s3-imgs{
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .s3-pic{
+        width: 300px;
+        height: 300px;
+    }
+    .s3-pic:hover{
+        width: 330px;
+        height: 330px;
+    }
+    .mnone{
+        display: none;
+    }
+    .s4-card{
+        width: 340px;
+        height: 260px;
+    }
+    .s4-tit{
+        text-align: center;
+    }
+    .sec_5{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .s5-img{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .foot-top{
+        flex-wrap: wrap;
+    }
+    .foot-bottom{
+        width: 90%;
+    }
 }
